@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 1s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.tictoe-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.upper-panel {
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: center;
+}
+
+.upper-panel-dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.upper-panel-white {
+  background-color: #fff;
+  color: #000;
+}
+
+.player-info-container {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.main-label-container {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.player-personal-info {
+  display: flex;
+  justify-content: space-between;
+  width: 46%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.tictoe-container {
+  margin: 2rem;
+  min-width: 500px;
+  min-height: 500px;
+}
+
+.cell {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+}
+
+.cell-row {
+  display: flex;
+}
+
+.white-cell {
+  border-color: #fff;
+}
+
+.black-cell {
+  border-color: #000;
+}
+
+.black-text {
+  color: #000;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.dark-background {
+  background-color: #000;
+}
+
+.white-background {
+  background-color: #fff;
+}
+
+.right-border {
+  border-right-style: solid;
+  border-right-width: 3px;
+}
+
+.bottom-border {
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+}
+
+.left-border {
+  border-left-style: solid;
+  border-left-width: 3px;
+}
+
+.top-border {
+  border-top-style: solid;
+  border-top-width: 3px;
+}
+
+.turn-prompt {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 1rem;
+}
+
+.night-mode-button {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 1rem;
+  padding: 1rem;
+  border-width: 2px;
+  border-style: solid;
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.popup {
+  position: absolute;
+  width: 40%;
+  height: 40%;
+  left: 30%;
+  top: 20%;
+  background-color: #fff;
+  color: '#000';
+  border: 1px solid black;
+  font-size: 2.2rem;
+  font-weight: 600;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
